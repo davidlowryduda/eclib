@@ -1,15 +1,62 @@
-
-{"data":
-  {"terminal:1":
-    {"data":
-      {"name":"1"}},"markdownviewer-widget:README.md":
-      {"data":
-        {"path":"README.md","factory":"Markdown Preview"}},"layout-restorer:data":
-        {"main":
-          {"dock":
-            {"type":"split-area","orientation":"vertical","sizes":[0.3,0.7],"children":[
-              {"type":"tab-area","currentIndex":0,"widgets":["markdownviewer-widget:README.md"]},
-              {"type":"tab-area","currentIndex":0,"widgets":["terminal:1"]}]},"mode":"multiple-document","current":"terminal:1"},"left":
-              {"collapsed":false,"current":"filebrowser","widgets":["filebrowser","running-sessions","command-palette","tab-manager"]},"right":
-              {"collapsed":true,"widgets":[]}}},"metadata":
-              {"id":"/lab"}}
+{
+   "metadata" : {
+      "id" : "/lab"
+   },
+   "data" : {
+      "layout-restorer:data" : {
+         "main" : {
+            "current" : "terminal:1",
+            "dock" : {
+               "orientation" : "vertical",
+               "sizes" : [
+                  0.3,
+                  0.7
+               ],
+               "children" : [
+                  {
+                     "widgets" : [
+                        "markdownviewer-widget:BINDER_DOC.md"
+                     ],
+                     "currentIndex" : 0,
+                     "type" : "tab-area"
+                  },
+                  {
+                     "widgets" : [
+                        "terminal:1"
+                     ],
+                     "currentIndex" : 0,
+                     "type" : "tab-area"
+                  }
+               ],
+               "type" : "split-area"
+            },
+            "mode" : "multiple-document"
+         },
+         "right" : {
+            "widgets" : [],
+            "collapsed" : true
+         },
+         "left" : {
+            "current" : "filebrowser",
+            "collapsed" : false,
+            "widgets" : [
+               "filebrowser",
+               "running-sessions",
+               "command-palette",
+               "tab-manager"
+            ]
+         }
+      },
+      "markdownviewer-widget:BINDER_DOC.md" : {
+         "data" : {
+            "path" : "BINDER_DOC.md",
+            "factory" : "Markdown Preview"
+         }
+      },
+      "terminal:1" : {
+         "data" : {
+            "name" : "1"
+         }
+      }
+   }
+}
